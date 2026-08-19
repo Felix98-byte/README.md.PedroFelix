@@ -13,7 +13,7 @@
 - [ ] d) Substituir os servidores físicos por notebooks comuns
 - [ ] e) Virtualização não permite reduzir o número de servidores físicos
 
-**Justificativa:** <A virtualização consolida múltiplas máquinas virtuais em menos servidores físicos, aproveitando a capacidade ociosa dos processadores e mantendo o isolamento, o que reduz custos de energia e refrigeração.>
+**Justificativa:** A virtualização consolida múltiplas máquinas virtuais em menos servidores físicos, aproveitando a capacidade ociosa dos processadores e mantendo o isolamento, o que reduz custos de energia e refrigeração.
 
 **2.** Um data center de produção precisa do máximo desempenho possível para as VMs, com isolamento forte entre elas e sem depender de um sistema operacional hospedeiro rodando por baixo do hipervisor. Qual tipo de hipervisor é o mais adequado?
 
@@ -23,4 +23,4 @@
 - [ ] d) Tipo 2, porque tem sempre melhor desempenho que o Tipo 1
 - [ ] e) É indiferente: os dois tipos entregam o mesmo desempenho em produção
 
-**Justificativa:** <O hipervisor Tipo 1 roda direto no hardware, sem a sobrecarga de um sistema operacional hospedeiro, garantindo menor latência, isolamento forte e desempenho máximo em produção.>
+**Justificativa:** O hipervisor Tipo 1 roda direto no hardware, sem a sobrecarga de um sistema operacional hospedeiro, garantindo menor latência, isolamento forte e desempenho máximo em produção.
